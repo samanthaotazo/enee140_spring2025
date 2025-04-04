@@ -44,7 +44,7 @@ main()
 * Question 4: Add the following line after you print out sum, re-compile the code, run it. Observe
 the output and try to guess/reason why this happens. */
 
-    printf("overflow: a[SIZE] = %4d\n", a[SIZE]); //this is out of bounds and gives junk
+    printf("overflow: a[SIZE] = %4d\n", a[SIZE]); //this is out of bounds
 
     printf("\nThe sum is : %d\n", sum);
 
